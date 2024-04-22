@@ -1,0 +1,28 @@
+
+.minihome {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(20, 0, 50, 0.7), rgba(20,0,50,0.7)), url('../../assets/UniversityDemo.avif');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.minihome-text {
+    text-align: center;
+    max-width: 800px ;
+}
+
+.minihome-text h1 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.minihome-text p {
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+}
