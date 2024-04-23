@@ -42,7 +42,7 @@ function Review() {
                                     <span>VP University, Leaf village</span>
                                 </div>
                             </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam pariatur illum, quasi dignissimos enim mollitia, vero delectus omnis aut veniam sed? Asperiores debitis cumque eos.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati harum impedit, exercitationem commodi iure delectus?</p>
                         </div>
                     </li>
                     <li>
@@ -54,7 +54,7 @@ function Review() {
                                     <span>VP University, Leaf village</span>
                                 </div>
                             </div>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus natus voluptas adipisci ipsa fuga molestiae expedita, impedit suscipit tempore tempora asperiores architecto laboriosam eligendi in.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis magnam tenetur similique eligendi libero delectus.</p>
                         </div>
                     </li>
                     <li>
@@ -66,7 +66,7 @@ function Review() {
                                     <span>VP University, Leaf village</span>
                                 </div>
                             </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, magni minus. Temporibus adipisci inventore tempora dolorem voluptate incidunt ducimus asperiores, eum repellendus, ab beatae voluptatum?</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel maxime amet tenetur laboriosam quis consectetur.</p>
                         </div>
                     </li>
                     <li>
@@ -78,7 +78,7 @@ function Review() {
                                     <span>VP Unversity, Leaf village</span>
                                 </div>
                             </div>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis iure, voluptas totam laudantium, illum sapiente assumenda iste fugiat sed asperiores, voluptatem qui non quis provident?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, vitae at esse maiores consequuntur accusamus.</p>
                         </div>
                     </li>
                 </ul>
