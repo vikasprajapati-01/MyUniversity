@@ -1,16 +1,16 @@
-import React from 'react';
+import React , { useState } from 'react';
 
 import './About.css'
 
 import playIcon from '../../assets/play-icon.png'
 import aboutImg from '../../assets/about.jpg'
 
-function About() {
+function About({setPlayStatus}) {
     return(
         <div className='about'>
             <div className="about-left">
                 <img src={aboutImg} alt="" className='about-img' />
-                <img src={playIcon} alt="" className='play-icon' />
+                <img src={playIcon} alt="" className='play-icon' onClick={() => { setPlayStatus(true) }}/>
             </div>
             <div className="about-right">
                 <h3>About University</h3>

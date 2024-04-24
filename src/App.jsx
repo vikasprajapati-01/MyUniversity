@@ -1,3 +1,5 @@
+import React , { useState } from 'react';
+
 import Navbar from './Components/Navbar/Navbar.jsx'
 import Minihome from './Components/Minihome/Minihome.jsx'
 import Courses from './Components/Courses/Courses.jsx'
@@ -8,7 +10,11 @@ import Review from './Components/Review/Review.jsx'
 import Contact from './Components/Contact/Contact.jsx'
 import Footer from './Components/Footer/Footer.jsx'
 
+import VideoPlayer from './Components/VideoPlayer/VideoPlayer.jsx'
+
 function App() {
+
+  const [playStatus, setPlayStatus] = useState(false);
 
   return (
     <>
@@ -18,7 +24,7 @@ function App() {
       <div className="container">
           <Title mainTitle='COURSES' subTitle='What We Provide' />
           <Courses />
-          <About />
+          <About setPlayStatus={setPlayStatus}/>
           <Title mainTitle='GALLERY' subTitle='Our Campus Images' />
           <Campus />
           <Title mainTitle='REVIEW' subTitle='What Students Say' />
@@ -27,6 +33,7 @@ function App() {
           <Contact />
           <Footer />
       </div>
+      <VideoPlayer playStatus={playStatus} setPlayStatus={setPlayStatus} />
     </>
   )
 }

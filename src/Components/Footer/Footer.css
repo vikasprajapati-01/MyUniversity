@@ -12,3 +12,18 @@
     display: inline-block;
     margin-left: 25px;
 }
+
+/* Media Query  */
+
+@media (max-width: 750px) {
+    .footer {
+        display: block;
+        text-align: center;
+    }
+    .footer ul li {
+        margin: 10px;
+    }
+    .footer ul {
+        margin-top: 10px;
+    }
+}
