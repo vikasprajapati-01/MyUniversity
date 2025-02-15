@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 
 import './Campus.css'
 
@@ -17,7 +18,7 @@ function Campus() {
                 <img src={campusImage3} alt="" />
                 <img src={campusImage4} alt="" />
             </div>
-            <button className='btn dark-btn'> See more here <img src={whiteNextIcon} alt="" /></button>
+            <Link to='contact' className='btn dark-btn' smooth={true} offset={-260} duration={500} > To know more <img src={whiteNextIcon} alt="" /></Link>
         </div>
     );
 }

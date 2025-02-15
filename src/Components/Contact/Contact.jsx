@@ -16,7 +16,7 @@ function Contact() {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "Enter the access key here"); // Will get an access key from web3forms
+    formData.append("access_key", import.meta.env.VITE_MAIL_KEY); // Will get an access key from web3forms
                                                                 // when email is entered in the website
 
     const response = await fetch("https://api.web3forms.com/submit", {
@@ -39,7 +39,7 @@ function Contact() {
         <div className='contact'>
             <div className="contact-col">
                 <h3>Send us a message <img src={msg_icon} alt="" /></h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit cupiditate, voluptate, esse obcaecati ipsa provident laborum dolor eaque labore sunt nulla hic nostrum! Et, sapiente.</p>
+                <p>We are available 24/7, contact us to know more and get a chance to have a tour in our university.</p>
                 <ul>
                     <li><img src={mail_icon} alt="" />abcd123@gmail.com</li>
                     <li><img src={phone_icon} alt="" />+91 1234567890</li>

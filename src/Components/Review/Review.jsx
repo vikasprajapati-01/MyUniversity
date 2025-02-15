@@ -7,6 +7,7 @@ import next_icon from '../../assets/whiteNext-icon.png'
 import back_icon from '../../assets/whiteBack-icon.png'
 import user1 from '../../assets/user1.jpg'
 import user2 from '../../assets/user2.jpg'
+import user3 from '../../assets/user3.jpg'
 
 function Review() {
 
@@ -42,7 +43,7 @@ function Review() {
                                     <span>VP University, Leaf village</span>
                                 </div>
                             </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati harum impedit, exercitationem commodi iure delectus?</p>
+                            <p>The faculty at VP University is incredibly supportive, and the learning environment is amazing.</p>
                         </div>
                     </li>
                     <li>
@@ -54,7 +55,19 @@ function Review() {
                                     <span>VP University, Leaf village</span>
                                 </div>
                             </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis magnam tenetur similique eligendi libero delectus.</p>
+                            <p>VP University offers top-notch research opportunities and a curriculum that challenges students to think critically.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div className="slide">
+                            <div className="user-info">
+                                <img src={user3} alt="" />
+                                <div>
+                                    <h3>Rock Lee</h3>
+                                    <span>VP University, Leaf village</span>
+                                </div>
+                            </div>
+                            <p>From extracurricular activities to academic excellence, VP University has helped me build my skills and confidence.</p>
                         </div>
                     </li>
                     <li>
@@ -62,23 +75,11 @@ function Review() {
                             <div className="user-info">
                                 <img src={user1} alt="" />
                                 <div>
-                                    <h3>Rock Lee</h3>
-                                    <span>VP University, Leaf village</span>
-                                </div>
-                            </div>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel maxime amet tenetur laboriosam quis consectetur.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div className="slide">
-                            <div className="user-info">
-                                <img src={user2} alt="" />
-                                <div>
                                     <h3>Gaara</h3>
                                     <span>VP Unversity, Leaf village</span>
                                 </div>
                             </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, vitae at esse maiores consequuntur accusamus.</p>
+                            <p>A place where knowledge meets innovation! The university provides excellent resources and vibrant student community.</p>
                         </div>
                     </li>
                 </ul>
